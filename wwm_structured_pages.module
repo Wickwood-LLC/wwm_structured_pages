@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the WWM Structured Pages feature.
+ */
+
+include_once 'wwm_structured_pages.features.inc';
