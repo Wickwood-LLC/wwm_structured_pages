@@ -304,6 +304,44 @@ function wwm_structured_pages_panelizer_defaults() {
   $pane->uuid = '77139a57-c8a5-4872-bb21-78d40a025032';
   $display->content['new-77139a57-c8a5-4872-bb21-78d40a025032'] = $pane;
   $display->panels['center'][1] = 'new-77139a57-c8a5-4872-bb21-78d40a025032';
+  $pane = new stdClass();
+  $pane->pid = 'new-589f8a04-1819-4762-994c-d06aec191fcd';
+  $pane->panel = 'center';
+  $pane->type = 'entity_field';
+  $pane->subtype = 'node:field_featured_image';
+  $pane->shown = TRUE;
+  $pane->access = array();
+  $pane->configuration = array(
+    'label' => 'title',
+    'formatter' => 'colorbox',
+    'delta_limit' => 0,
+    'delta_offset' => '0',
+    'delta_reversed' => FALSE,
+    'formatter_settings' => array(
+      'colorbox_node_style' => 'panopoly_image_half',
+      'colorbox_node_style_first' => '',
+      'colorbox_image_style' => '',
+      'colorbox_gallery' => 'post',
+      'colorbox_gallery_custom' => '',
+      'colorbox_caption' => 'auto',
+      'colorbox_caption_custom' => '',
+    ),
+    'context' => array(),
+    'override_title' => 1,
+    'override_title_text' => '',
+    'override_title_heading' => 'h2',
+  );
+  $pane->cache = array();
+  $pane->style = array(
+    'settings' => NULL,
+  );
+  $pane->css = array();
+  $pane->extras = array();
+  $pane->position = 2;
+  $pane->locks = array();
+  $pane->uuid = '589f8a04-1819-4762-994c-d06aec191fcd';
+  $display->content['new-589f8a04-1819-4762-994c-d06aec191fcd'] = $pane;
+  $display->panels['center'][2] = 'new-589f8a04-1819-4762-994c-d06aec191fcd';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = 'new-548ee01c-8425-4eee-a14e-6468e5f7f1c9';
   $panelizer->display = $display;
